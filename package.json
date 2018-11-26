@@ -4,6 +4,7 @@
   "description": "Solutions to AoC2018",
   "main": "index.js",
   "dependencies": {
+    "commander": "^2.19.0",
     "nyc": "^13.1.0"
   },
   "devDependencies": {
