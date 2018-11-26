@@ -1,0 +1,17 @@
+{
+  "name": "advent-of-code-2018",
+  "version": "1.0.0",
+  "description": "Solutions to AoC2018",
+  "main": "index.js",
+  "dependencies": {
+    "nyc": "^13.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Steve Gagné",
+  "license": "UNLICENSED"
+}
