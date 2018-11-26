@@ -7,9 +7,22 @@ class Solver0{
         });
     }
 
-    solveB(_input){
+    solveB(input){
         return new Promise(resolve => {
-            resolve(2);
+            let arr = input.split('');
+            let count = 0;
+            let state = 0;
+            for (let x of arr){
+                if (x === '(')
+                    state++;
+                else
+                    state--;
+                count++;
+                if(state < 0){
+                    resolve(count);   
+                    break;
+                }
+            }
         });
     }
 }
